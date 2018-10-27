@@ -14,7 +14,7 @@ add_action('wp_head','displaymetaheader');
 
 function displaymetaheader(){
 ?>
-<!--<meta property="og:number" content="number entered through the wordpress admin in above step" />-->
+
 
 <meta property="og:number" content="<?php echo esc_attr(get_option('get-no-value'));  ?>" />
 
